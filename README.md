@@ -1,0 +1,2 @@
+# Homework-4
+This assignment prompts the idea of creating a quiz from the concepts of JavaScript. I had a tough time figuring out my div classes in the markup. Going over the code in the DOM helped me to realize that I should take things one step at a time. RIght now my assignment is incomplete but for the sake of handing in something on time, I am handing "something" in. I will revisit this and work on it to develop a better quiz!!

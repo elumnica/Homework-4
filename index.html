@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- header references script source to load in the background
+then run the script in when the page loads.-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    
+    <title>Quiz Application</title>
+</head>
+<body>
+    <!--main parent div
+    other divs and buttons nested 
+    within class -->
+    <div class="container">
+        <p>Would you like to start the quiz?</P>
+        <div id = "question-container" class="hide">
+            <div id = "question">Question</div>
+            <div id = "answer-buttons" class="btn-grid">
+                <button class= "btn">Answer 1</button>
+                <button class= "btn">Answer 2</button>
+                <button class= "btn">Answer 3</button>
+                <button class= "btn">Answer 4</button>
+            </div>
+        </div>
+
+     <!--class for button controls -->
+        <div class = "controls">
+        <button id = "start-btn" class = "start-btn btn">Start</button>
+        <button id = "next-btn" class = "next-btn btn hide">Next</button>
+        </div>
+    </div>
+    <script src="script.js"></script>     
+</body>
+</html>
